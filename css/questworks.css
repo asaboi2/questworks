@@ -1728,6 +1728,7 @@ figcaption {
   margin-top: 1rem;
   margin-left: 0rem;
   width: 105%;
+  max-width: none;
 }
 
 .image.hero {
