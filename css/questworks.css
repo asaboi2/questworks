@@ -675,6 +675,14 @@ figcaption {
   text-align: center;
 }
 
+.text-color-white.smaller {
+  text-align: center;
+  text-transform: none;
+  padding-top: .4rem;
+  padding-bottom: .2rem;
+  font-size: 1.1rem;
+}
+
 .text-style-italic {
   font-style: italic;
 }
@@ -1441,12 +1449,12 @@ figcaption {
 
 .brix---container-default {
   max-width: 100%;
+  padding-top: .7rem;
+  padding-bottom: .7rem;
 }
 
 .brix---header-wrapper {
   background-color: #ecf6ff;
-  padding-top: .7rem;
-  padding-bottom: .7rem;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -2670,6 +2678,24 @@ figcaption {
   right: 0%;
 }
 
+.promo-code {
+  z-index: 100;
+  background-color: #2991de;
+  display: block;
+  position: fixed;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  box-shadow: 0 0 14px -4px #fff;
+}
+
+.link-block {
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .padding-xlarge {
     padding: 3rem;
@@ -2914,8 +2940,8 @@ figcaption {
   }
 
   .brix---header-wrapper {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .brix---floating-image-hero-v1---1 {
@@ -3728,8 +3754,8 @@ figcaption {
   }
 
   .brix---header-wrapper {
-    padding-top: .9rem;
-    padding-bottom: .9rem;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .brix---floating-image-hero-v1---1 {
