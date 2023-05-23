@@ -162,6 +162,10 @@ label {
   font-weight: 500;
 }
 
+strong {
+  font-weight: bold;
+}
+
 blockquote {
   border-left: .25rem solid #e2e2e2;
   margin-bottom: 0;
@@ -651,6 +655,12 @@ figcaption {
 .padding-global {
   padding-left: 9vw;
   padding-right: 9vw;
+}
+
+.padding-global.extra {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text-weight-normal {
@@ -2696,6 +2706,51 @@ figcaption {
   display: flex;
 }
 
+.richtexto li {
+  font-size: 1.3rem;
+}
+
+.richtexto p {
+  line-height: 1.4;
+}
+
+.richtexto strong {
+  color: #296590;
+}
+
+.header {
+  background-image: linear-gradient(rgba(41, 145, 222, .84), rgba(41, 145, 222, .84)), url('../images/wizard-prof.png');
+  background-position: 0 0, 50%;
+  background-size: auto, auto;
+}
+
+.popup {
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, .72);
+  justify-content: center;
+  align-items: center;
+  display: none;
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.x-out {
+  z-index: 1001;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.html-embed {
+  z-index: 1002;
+  position: relative;
+}
+
 @media screen and (max-width: 991px) {
   .padding-xlarge {
     padding: 3rem;
@@ -2834,6 +2889,10 @@ figcaption {
   .max-width-full-tablet {
     width: 100%;
     max-width: none;
+  }
+
+  .padding-global.extra {
+    width: 100%;
   }
 
   .fs-styleguide_1-col {
@@ -4101,6 +4160,10 @@ figcaption {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .popup {
+    padding: 2.7rem 1.9rem;
   }
 }
 
