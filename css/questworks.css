@@ -1600,6 +1600,10 @@ figcaption {
   padding-bottom: 0;
 }
 
+.brix---section-hero-primary.mobile {
+  display: none;
+}
+
 .gradient-text {
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(97deg, #2991de, #7abded);
@@ -3038,6 +3042,14 @@ figcaption {
     padding-bottom: 3.1rem;
   }
 
+  .brix---section-hero-primary.mobile {
+    display: flex;
+  }
+
+  .brix---section-hero-primary.desktop {
+    display: none;
+  }
+
   .cards-flex {
     flex-direction: column;
   }
@@ -3871,13 +3883,13 @@ figcaption {
     padding-bottom: 0;
   }
 
+  .brix---section-hero-primary.mobile {
+    padding-top: 1.3rem;
+  }
+
   .image.smaller {
     width: 100%;
     margin-top: 0;
-  }
-
-  .image.fix {
-    margin-top: -1rem;
   }
 
   .hero-para {
