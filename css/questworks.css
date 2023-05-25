@@ -1633,6 +1633,8 @@ figcaption {
 
 .hero-text {
   max-width: 65ch;
+  flex-direction: column;
+  display: flex;
 }
 
 .hero-para {
